@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>QR Card</title>
+    <title>QRCardDemo</title>
 
     <style>
         @media screen {
@@ -71,7 +71,7 @@
             }
 
             .qr-card {
-                border: 1pt solid black;
+                /* border: 1pt solid black; */
                 padding: 5pt;
                 width: 240pt;
                 height: 132pt;
@@ -379,16 +379,16 @@
                 document.getElementById("preview-title").value = "<b>David Engelkemier<b><hr>";
                 document.getElementById("preview-url").value = "tel:304-704-9104";
                 document.getElementById("preview-show-link").checked = true;
-                document.getElementById("preview-input-text").value = "<br/><i>Call me to discuss how I can help with your QR and website development projects.</i>";
+                document.getElementById("preview-input-text").value = "<br/><i>Call me to discuss how I can help with your QR and mapping development projects.</i>";
                 updateDesighPreviewCard();
             });
             
            // When init-email clicked
            $('#init-email-link').click(function () {
                 document.getElementById("preview-title").value = "<b>David Engelkemier<b><hr>";
-                document.getElementById("preview-url").value = "mailto:david.engelkemier@gmail.com ";
+                document.getElementById("preview-url").value = "mailto:david.engelkemier@gmail.com";
                 document.getElementById("preview-show-link").checked = true;
-                document.getElementById("preview-input-text").value = "Email and ask how I can help with your QR enabled web projects.";
+                document.getElementById("preview-input-text").value = "</br>Email and ask how I can help with your QR enabled web projects.";
                 updateDesighPreviewCard();
             });
 
